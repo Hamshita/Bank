@@ -2,6 +2,10 @@
 -e .
 
 # external requirements
+pandas
+mlflow
+sklearn
+joblib
 click
 Sphinx
 coverage
