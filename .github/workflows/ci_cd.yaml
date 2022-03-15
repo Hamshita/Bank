@@ -43,7 +43,6 @@ jobs:
     - name: Building Docker Image
       run: |
         docker build . --file Dockerfile --tag hamshita/bankcicd
-
     - name: Pushing docker image
       run: |
         docker push ${{secrets.DOCKER_USERNAME}}/bankcicd
